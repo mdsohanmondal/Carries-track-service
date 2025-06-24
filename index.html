@@ -7,42 +7,63 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <div id="main">
-        <div class="nav-bar">
-            <div class="logo">
-                <h1>Logo</h1>
-            </div>
-            <div class="links">
-                <ul>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Home
-                    </li>
-                </ul>
-            </div>
+    <div id="main" class="w-full h-screen bg-zinc-800 text-white overflow-hidden">
+      <div
+        class="nav-bar flex w-full px-10 py-5 items-center justify-around bg-zinc-600"
+      >
+        <div
+          class="logo bg-red-500 px-5 py-2 rounded-xl cursor-pointer font-bold hover:scale-[1.2]"
+        >
+          <h1>Logo</h1>
         </div>
-        <div class="body">
-            <div class="image">
-                <h1>
-                    we make strongest service above the world
-                </h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolor cumque aperiam! Temporibus quibusdam ducimus impedit repellendus labore quas quis praesentium similique ipsa! Cupiditate dignissimos odio incidunt amet nesciunt veniam!</p>
-            </div>
+        <div class="links">
+          <ul class="flex items-center justify-between gap-5">
+            <li
+              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+            >
+              Home
+            </li>
+            <li
+              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+            >
+              About
+            </li>
+            <li
+              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+            >
+              services
+            </li>
+            <li
+              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+            >
+              other pages
+            </li>
+            <li
+              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+            >
+              blog
+            </li>
+            <li
+              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+            >
+              contact
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="body w-full h-screen flex items-center justify-center p-10">
+        <div class="image flex flex-col gap-3 justify-center items-center">
+          <h1 class="text-6xl font-semibold text-center leading-none m-3 uppercase">we make strongest <br> service above the world</h1>
+          <p class="text-lg font-light">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            dolor cumque aperiam!
+          </p>
+          <div class="buttons flex items-center justify-center gap-3">
+            <button class="border px-5 py-2 uppercase cursor-pointer hover:bg-zinc-500 hover:text-zinc-100 font-semibold hover:rounded-xl">our services</button>
+            <button class="border px-5 py-2 uppercase cursor-pointer hover:bg-zinc-500 hover:text-zinc-100 font-semibold hover:rounded-xl">get a quate</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
