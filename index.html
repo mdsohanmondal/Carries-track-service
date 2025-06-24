@@ -7,60 +7,93 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <div id="main" class="w-full h-screen bg-zinc-800 text-white overflow-hidden">
+    <div
+      id="main"
+      class="selection:text-[#f7364d] w-full h-screen bg-zinc-800 text-white overflow-hidden"
+    >
       <div
-        class="nav-bar flex w-full px-10 py-5 items-center justify-around bg-zinc-600"
+        class="selection:text-[#f7364d] nav-bar flex w-full px-10 py-5 items-center justify-around bg-zinc-600"
       >
         <div
-          class="logo bg-red-500 px-5 py-2 rounded-xl cursor-pointer font-bold hover:scale-[1.2]"
+          class="w-15 h-8 selection:text-[#f7364d] logo bg-red-500 overflow-hidden rounded-xl cursor-pointer font-bold"
         >
-          <h1>Logo</h1>
+          <img
+            class="w-full h-full object-cover object-center"
+            src="https://www.shutterstock.com/image-vector/pixel-run-icon-logo-design-260nw-699887239.jpg"
+            alt="logo"
+          />
         </div>
-        <div class="links">
-          <ul class="flex items-center justify-between gap-5">
+        <div class="selection:text-[#f7364d] links">
+          <ul
+            class="selection:text-[#f7364d] flex items-center justify-between gap-5"
+          >
             <li
-              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+              class="selection:text-[#f7364d] text-md cursor-pointer hover:text-blue-600 hover:border-b"
             >
               Home
             </li>
             <li
-              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+              class="selection:text-[#f7364d] text-md cursor-pointer hover:text-blue-600 hover:border-b"
             >
               About
             </li>
             <li
-              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+              class="selection:text-[#f7364d] text-md cursor-pointer hover:text-blue-600 hover:border-b"
             >
               services
             </li>
             <li
-              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+              class="selection:text-[#f7364d] text-md cursor-pointer hover:text-blue-600 hover:border-b"
             >
               other pages
             </li>
             <li
-              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+              class="selection:text-[#f7364d] text-md cursor-pointer hover:text-blue-600 hover:border-b"
             >
               blog
             </li>
             <li
-              class="text-md cursor-pointer hover:text-blue-600 hover:border-b"
+              class="selection:text-[#f7364d] text-md cursor-pointer hover:text-blue-600 hover:border-b"
             >
               contact
             </li>
           </ul>
         </div>
       </div>
-      <div class="body w-full h-screen flex items-center justify-center p-10">
-        <div class="image flex flex-col gap-3 justify-center items-center">
-          <h1 class="text-6xl font-semibold text-center leading-none m-3 uppercase">we make strongest <br> service above the world</h1>
-          <p class="text-lg font-light">
+      <div
+        class="selection:text-[#f7364d] body w-full h-screen flex items-center justify-center"
+      >
+        <div
+          class="selection:text-[#f7364d] image flex flex-col gap-3 justify-center items-center relative w-full h-full"
+        >
+          <img
+            class="selection:text-[#f7364d] w-full h-full z-1 absolute top-0 left-0 select-none"
+            src="https://static.vecteezy.com/system/resources/previews/035/786/557/non_2x/ai-generated-freight-cargo-train-traveling-on-train-tracks-on-dark-sky-free-photo.jpg"
+            alt="Carries track"
+          />
+          <h1
+            class="selection:text-[#f7364d] z-2 text-6xl font-semibold text-center leading-none m-3 uppercase"
+          >
+            we make strongest <br />
+            service above the world
+          </h1>
+          <p class="selection:text-[#f7364d] z-2 text-lg font-light">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
             dolor cumque aperiam!
           </p>
-          <div class="buttons flex items-center justify-center gap-3">
-            <button class="border px-5 py-2 uppercase cursor-pointer hover:bg-zinc-500 hover:text-zinc-100 font-semibold hover:rounded-xl">our services</button>
-            <button class="border px-5 py-2 uppercase cursor-pointer hover:bg-zinc-500 hover:text-zinc-100 font-semibold hover:rounded-xl">get a quate</button>
+          <div
+            class="selection:text-[#f7364d] z-2 buttons flex items-center justify-center gap-3"
+          >
+            <button
+              class="selection:text-[#f7364d] border px-5 py-2 uppercase cursor-pointer hover:bg-zinc-500 hover:text-zinc-100 font-semibold hover:rounded-xl"
+            >
+              our services
+            </button>
+            <button
+              class="selection:text-[#f7364d] border px-5 py-2 uppercase cursor-pointer hover:bg-zinc-500 hover:text-zinc-100 font-semibold hover:rounded-xl"
+            >
+              get a quate
+            </button>
           </div>
         </div>
       </div>
